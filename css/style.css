@@ -1,0 +1,160 @@
+body {
+  font-family: Futura, Trebuchet MS, Arial, san-serif;
+  color: #202124;
+}
+
+h1 {
+  color: blue;
+  margin: 90px 50px 50px 50px;
+  font-size: 100px;
+  text-align: center;
+}
+
+h3 {
+  color: #fa1e0e;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+.google{
+width: 50%;
+margin-top: 5%;
+margin-left: 25%;
+}
+
+.AdvLogo {
+  color: blue;
+  font-size: 30px;
+}
+
+.navbar {
+  text-align: right;
+  padding-left: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+@media screen and (max-width: 810px) {
+  a, h3, li, td {
+    font-size: 20px;
+  }
+}
+
+.form {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.search {
+  border-color: #888888;
+  border-style: solid;
+  border-width: thin;
+  border-width: 1px;
+  display: block;
+  margin:auto;
+  padding: 15px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .search {
+    width: 80%;
+  }
+}
+
+.search:hover, .search:focus {
+  box-shadow: 0 0 1px 1px #888888;
+  outline: none;
+}
+
+.searchBtn {
+  background-color: #F8F9FA;
+  border-style: none;
+  padding: 8px;
+  margin: 30px 5px;
+  width: 10rem;
+  border-radius: 5px;
+}
+
+.searchBtn:hover {
+  box-shadow: 0 0 1px 1px #888888;
+  outline: none;
+}
+
+.navbar a, .navbar a:active, .navbar a:hover {
+  text-decoration: none;
+}
+
+.navbar a:active, .navbar a:hover {
+  text-decoration: underline;
+}
+
+.table-input tr {
+  margin: 15px 45px;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 810px) {
+  .table-input tr {
+    font-size: 20px;
+  }
+}
+
+.advLogo{
+  width: 10%;
+
+}
+
+@media screen and  (max-width: 800px){
+  .advLogo{
+    width: 30%;
+    margin-left: 1px;
+  }
+}
+.advBtn {
+  border-width: thin;
+  color: white;
+  background-color: #4D90FE;
+  border-radius: 2px;
+  margin-left: 80%;
+}
+
+@media screen and (max-width: 810px) {
+  .advBtn {
+    margin-left: 70%;
+    padding: 10px;
+    width: 8rem;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+  .searchAdvancedBar {
+    margin-left: 5px;
+    padding: 10px;
+    width: 120% !important;
+  }
+}
+
+.searchAdvancedBar {
+  border-width: thin;
+  border-radius: 1px;
+  display: block;
+  margin: 10px;
+  padding: 7px;
+  width: 600px;
+}
+
+.searchAdvancedBar:hover, .advBtn:hover, .search:hover{
+  box-shadow: 0 0 1px 1px  #888888;
+  outline: 1px;
+}
